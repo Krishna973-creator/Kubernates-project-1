@@ -10,6 +10,9 @@ USER root
 
 RUN apt-get install -y wget
 
+#install httpd
+RUN apt-get install apache2
+
 # get maven 3.2.2
 
 RUN wget --no-verbose -0/tmp/apache-maven-3.5.4-bin.tar.gz http://apache.cs.utah.edu/maven/maven-3/3.5.4/binaries/apache-maven-3.5.4-bin.tar.gz
